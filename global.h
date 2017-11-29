@@ -64,7 +64,7 @@ void ventanas(WINDOW *in){
         box(stdscr,'|','=');
         refresh();
         box(in,'*','*');
-        mvwaddstr(in,0,14,"<Input Handle>");
+        mvwaddstr(in,0,14,"<GAME SNAKE LAND>");
 
         wrefresh(in);
 
